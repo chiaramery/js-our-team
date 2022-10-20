@@ -45,6 +45,6 @@ for (let i = 0; i < arrayTeam.length; i++) {
     console.log(infoTeam.nome, infoTeam.ruolo, infoTeam.foto);
 
     // Stampo informazioni su DOM sottoforma di stringhe
-    infoPeople.innerHTML += `<li> Nome e cognome: ${infoTeam.nome} Ruolo: ${infoTeam.ruolo} Foto: ${infoTeam.foto}</li>`; 
+    infoPeople.innerHTML += `<li><img src="img/${infoTeam.foto}" alt=""><div class = "info"><h3>${infoTeam.nome}</h3> <br>${infoTeam.ruolo}</div></li>`; 
 }
-    
+
